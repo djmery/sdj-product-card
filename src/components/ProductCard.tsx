@@ -38,11 +38,12 @@ export const ProductCard = ({ children, product, className, style, onChange, val
                 style={style}
             >
                 {children({
+                    // Properties
                     count: counter,
                     isMaxCountReached,
                     maxCount: initialValues?.maxCount,
                     product,
-
+                    //Modules
                     increaseBy,
                     reset
 
